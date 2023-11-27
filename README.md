@@ -1,59 +1,62 @@
 #Exam Testing System
 
-#Introduction
+##Introduction
 
 This Python script is an Exam Testing System that allows users to take a test based on a set of questions provided in a CSV file. The system shuffles the questions, presents them to the user, and records their score.
 
-#Features
+##Features
 
 Randomized Questions: The system shuffles the questions for a random order in each test session.
 User-Friendly Interface: Clear and simple console-based interface for users to answer questions.
 Scoring: Calculates and displays the user's final score at the end of the test.
 Time Tracking: Measures the time taken by the user to complete the test.
 
-#Getting Started
+##Getting Started
 
-Clone the Repository:
+###Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/exam-testing-system.git
+'''bash
+git clone https://github.com/sbendavid/YouTube-downloader.git
 cd exam-testing-system
-Install Dependencies:
+'''
+
+###Install Dependencies:
 Ensure you have Python installed. Run the following command to install the required packages:
 
-bash
+'''bash
 Copy code
 pip install -r requirements.txt
-Prepare Questions:
+'''
+
+###Prepare Questions:
 Create a CSV file (questions.csv) with the questions and answer options. Each row should have the question text, options, and the correct option.
 
 Example:
 
-csv
-Copy code
 What is the capital of France?,Paris,London,Berlin,Paris
 Which programming language is this test written in?,Java,Python,C++,Python
 What is the square root of 64?,6,8,10,8
-Run the Test:
+
+###Run the Test:
 Execute the script to conduct a test:
 
-bash
-Copy code
+'''bash
 python main.py
-Review Results:
+'''
+
+###Review Results:
 After completing the test, the script will display the user's final score and time taken. Test results are also saved to test_results.csv.
 
-#Customization
+##Customization
 
-##Question Structure:
+###Question Structure:
 Ensure the CSV file follows the structure expected by the script. Each row represents a question with the question text, options, and the correct option.
 
-##File Paths:
+###File Paths:
 Adjust file paths and names in the script to match your project structure and preferences.
 
-#Contributing
+##Contributing
 Feel free to contribute by opening issues or submitting pull requests. Your feedback and contributions are welcome!
 
-#License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
